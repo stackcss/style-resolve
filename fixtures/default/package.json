@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"no test specified!\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

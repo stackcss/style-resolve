@@ -1,0 +1,13 @@
+{
+  "name": "style",
+  "version": "0.0.0",
+  "style": "style.css",
+  "description": "",
+  "scripts": {
+    "test": "echo \"no test specified!\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
