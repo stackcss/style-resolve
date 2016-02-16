@@ -1,17 +1,17 @@
 {
   "name": "style-resolve",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "node test | faucet"
   },
   "dependencies": {
-    "resolve": "^0.6.1",
-    "xtend": "^2.1.2"
+    "resolve": "^1.1.7",
+    "xtend": "^4.0.1"
   },
   "devDependencies": {
-    "tape": "^2.10.2",
-    "faucet": "0.0.1"
+    "faucet": "0.0.1",
+    "tape": "^4.4.0"
   },
   "author": "",
   "license": "MIT"
