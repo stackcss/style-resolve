@@ -2,6 +2,7 @@
   "name": "style-resolve",
   "version": "1.0.0",
   "description": "",
+  "repository": "stackcss/style-resolve",
   "scripts": {
     "test": "node test | faucet"
   },
