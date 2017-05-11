@@ -18,3 +18,11 @@ test('uses style field in package.json', function(t) {
     , path.resolve(fixtures, 'style/style.css')
   )
 })
+
+test('uses main field in package.json if it points to .css', function(t) {
+  t.plan(1)
+  t.equal(
+      resolve.sync(path.resolve(fixtures, 'main'))
+    , path.resolve(fixtures, 'main/main.css')
+  )
+});
