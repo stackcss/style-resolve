@@ -33,7 +33,7 @@ function styleOpts(opts) {
 }
 
 function packageFilter(pkg, root) {
-  if (/.css$/.test(pkg.main)) return pkg
+  if (/\.css$/.test(pkg.main)) return pkg
 
   pkg.main = pkg.style
     ? pkg.style
