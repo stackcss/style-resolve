@@ -35,6 +35,8 @@ function styleOpts(opts) {
 function packageFilter(pkg, root) {
   pkg.main = pkg.style
     ? pkg.style
+    : /\.css$/.test(pkg.main)
+    ? pkg.main
     : 'index.css'
 
   return pkg
