@@ -11,7 +11,8 @@ following exceptions:
 
 * Node's core modules are excluded.
 * The "main" file for a module is specified with the "style" key instead,
-  defaulting to `index.css`.
+  use "main" key if there's no "style" key and the "main" key points to css file,
+  otherwise defaulting to `index.css`.
 * Currently accepts implicit usage of the `.css` extension by default – though
   pull requests are welcome to make additions.
 

@@ -18,3 +18,19 @@ test('uses style field in package.json', function(t) {
     , path.resolve(fixtures, 'style/style.css')
   )
 })
+
+test('uses main field in package.json', function(t) {
+  t.plan(1)
+  t.equal(
+      resolve.sync(path.resolve(fixtures, 'use_main'))
+    , path.resolve(fixtures, 'use_main/main.css')
+  )
+})
+
+test('not uses main field in package.json', function(t) {
+  t.plan(1)
+  t.equal(
+      resolve.sync(path.resolve(fixtures, 'not_use_main'))
+    , path.resolve(fixtures, 'not_use_main/index.css')
+  )
+})
