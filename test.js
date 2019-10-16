@@ -34,3 +34,8 @@ test('not uses main field in package.json', function(t) {
     , path.resolve(fixtures, 'not_use_main/index.css')
   )
 })
+
+test('not uses main field in package.json', function(t) {
+  t.plan(1)
+  t.ok(resolve.sync('@fraction/base16-css'))
+})
